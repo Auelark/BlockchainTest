@@ -1,7 +1,7 @@
 import urllib.request
 import json
 
-
+"""1111111"""
 def get_page(data_length):
       url = 'https://api.alternative.me/fng/?limit='
       res = urllib.request.urlopen(url=url+data_length)
